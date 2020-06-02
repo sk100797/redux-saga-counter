@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/redux-saga-counter/static/js/main.def6717a.chunk.js",
+    "main.js.map": "/redux-saga-counter/static/js/main.def6717a.chunk.js.map",
+    "runtime-main.js": "/redux-saga-counter/static/js/runtime-main.5a9fac53.js",
+    "runtime-main.js.map": "/redux-saga-counter/static/js/runtime-main.5a9fac53.js.map",
+    "static/js/2.d3f3f505.chunk.js": "/redux-saga-counter/static/js/2.d3f3f505.chunk.js",
+    "static/js/2.d3f3f505.chunk.js.map": "/redux-saga-counter/static/js/2.d3f3f505.chunk.js.map",
+    "index.html": "/redux-saga-counter/index.html",
+    "precache-manifest.e3589acd9c5d83b2808617afda879d70.js": "/redux-saga-counter/precache-manifest.e3589acd9c5d83b2808617afda879d70.js",
+    "service-worker.js": "/redux-saga-counter/service-worker.js",
+    "static/js/2.d3f3f505.chunk.js.LICENSE.txt": "/redux-saga-counter/static/js/2.d3f3f505.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a9fac53.js",
+    "static/js/2.d3f3f505.chunk.js",
+    "static/js/main.def6717a.chunk.js"
+  ]
+}
