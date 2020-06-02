@@ -1,11 +1,18 @@
 import React from "react";
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
-const Counter = ({value, increment, decrement, incrementIfOdd, incrementAsync}) => {
+const Counter = ({
+  value,
+  increment,
+  decrement,
+  incrementIfOdd,
+  incrementAsync,
+}) => {
   return (
     <div>
       Clicked: {value} times <br />
-      <button onClick={increment}>+</button> <button onClick={decrement}>-</button> <br />
+      <button onClick={increment}>+</button>{" "}
+      <button onClick={decrement}>-</button> <br />
       <button onClick={incrementIfOdd}>Increment if Odd</button> <br />
       <button onClick={incrementAsync}>Increment if Async</button> <br />
     </div>
@@ -13,10 +20,10 @@ const Counter = ({value, increment, decrement, incrementIfOdd, incrementAsync}) 
 };
 
 const mapStateToProps = (state) => {
-    return {
-        value: state
-    }
-}
+  return {
+    value: state,
+  };
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -26,4 +33,4 @@ const mapDispatchToProps = (dispatch) => {
     incrementAsync: () => dispatch({ type: "INCREMENT_ASYNC" }),
   };
 };
-export default connect(mapStateToProps,mapDispatchToProps)(Counter);
+export default connect(mapStateToProps, mapDispatchToProps)(Counter);
